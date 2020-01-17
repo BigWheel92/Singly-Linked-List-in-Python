@@ -37,7 +37,7 @@ class SLinkedList:
             self.head=temp
 
 
-    def insertAtEnd(self, data):
+    def insertAtTail(self, data):
         temp=SNode()
         temp.setData(data)
 
